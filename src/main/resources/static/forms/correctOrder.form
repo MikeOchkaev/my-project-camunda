@@ -1,0 +1,28 @@
+{
+  "components": [
+    {
+      "label": "ответ клиента",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0q09qcl",
+        "columns": null
+      },
+      "id": "Field_1y0kjqm",
+      "key": "correctOrder",
+      "description": "согласен клиент внести изменения в заказ?",
+      "validate": {
+        "required": true,
+        "pattern": "да|нет"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_074m5d5",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.20.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 15
+}

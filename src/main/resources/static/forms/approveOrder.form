@@ -1,0 +1,60 @@
+{
+  "components": [
+    {
+      "label": "establishment",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0tkfd40",
+        "columns": null
+      },
+      "id": "Field_1fxfr0t",
+      "key": "establishment",
+      "description": "establishment title",
+      "validate": {
+        "required": true,
+        "minLength": 1,
+        "maxLength": 64
+      }
+    },
+    {
+      "label": "dishes",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0butztp",
+        "columns": null
+      },
+      "id": "Field_0auw8d2",
+      "key": "dishes",
+      "description": "dishes name ",
+      "validate": {
+        "required": true,
+        "minLength": 1,
+        "maxLength": 64
+      }
+    },
+    {
+      "label": "can do it",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ar7q1e",
+        "columns": null
+      },
+      "id": "Field_1ih3usx",
+      "key": "orderCanDoIt",
+      "description": "can you complete order?",
+      "validate": {
+        "pattern": "нет|да",
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ApproveOrder",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.20.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 15
+}
